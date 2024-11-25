@@ -74,21 +74,24 @@ class Solution:
                                 'group': None,
                                 'status': 'open'}
         
-        for idx, cell in grid.items():
-            if cell['status'] == 'closed':
-                continue
-            if cell['infected']:
-                added_to_group = False
-                for adj in cell['adjacent']:
-                    if grid[adj]['infected']:
-                        if grid[adj]['group'] != None:
-                            cell['group'] = grid[adj]['group']
-                            added_to_group = True
-                if not added_to_group:
-                    cell['group'] = g
-                    g += 1
+        def group_cells(grid):
+            for idx, cell in grid.items():
+                if cell['status'] == 'closed':
+                    continue
+                if cell['infected']:
+                    added_to_group = False
+                    for adj in cell['adjacent']:
+                        if grid[adj]['infected']:
+                            if grid[adj]['group'] != None:
+                                cell['group'] = grid[adj]['group']
+                                added_to_group = True
+                    if not added_to_group:
+                        cell['group'] = g
+                        g += 1
         
-        #print('grid: ', grid, '\n')
+        print('initial grid: ', grid, '\n')
+        group_cells(grid)
+        print('grid: ', grid, '\n')
         
         return 0
 
