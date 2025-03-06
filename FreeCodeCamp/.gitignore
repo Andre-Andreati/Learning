@@ -6,3 +6,4 @@ ML_P03_Book_Recommendation_Engine_using_KNN/BX-Books.csv
 ML_P04_Linear_Regression_Health_Costs_Calculator/insurance.csv
 ML_P05_Neural_Network_SMS_Text_Classifier/train-data.tsv
 ML_P05_Neural_Network_SMS_Text_Classifier/valid-data.tsv
+TensorFlow/training_checkpoints
