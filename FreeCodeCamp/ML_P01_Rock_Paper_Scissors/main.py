@@ -3,10 +3,10 @@ from RPS_game import play, mrugesh, abbey, quincy, kris, human, random_player
 from RPS import player
 from unittest import main
 
-play(player, quincy, 1000)
-play(player, abbey, 1000)
-play(player, kris, 1000)
-play(player, mrugesh, 1000)
+#play(player, quincy, 300) #fixed sequence
+play(player, abbey, 500) #most common opponent 2-seq play
+#play(player, kris, 300) #last opponent play
+#play(player, mrugesh, 300) #last 10 opponent plays (most common play)
 
 # Uncomment line below to play interactively against a bot:
 # play(human, abbey, 20, verbose=True)
