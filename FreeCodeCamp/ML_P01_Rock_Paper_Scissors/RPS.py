@@ -82,7 +82,7 @@ def predict(model, opponent, player):
 
 def player(prev_play, opponent_history=[[None]], player_history=[[None]], model=[[None]]):
     random_matches = 100
-    length = 10
+    length = 20
 
     if not prev_play:
         print('\n\n\nfirst play')
@@ -117,6 +117,8 @@ def player(prev_play, opponent_history=[[None]], player_history=[[None]], model=
                 w1 = 0
                 w2 = 0
         print(f'runs {l - 10} to {l}: {w1}, {w2}, {res}')
+        #print(opponent_history[0][-10:])
+        #print(player_history[0][-10:])
 
     
     #print('entered player', '\n', ''.join(opponent_history), '\n', ''.join(player_history))

@@ -87,6 +87,18 @@ def abbey(prev_opponent_play,
 
     if not prev_opponent_play:
         prev_opponent_play = 'R'
+        opponent_history.clear()
+        play_order[0] = {
+              "RR": 0,
+              "RP": 0,
+              "RS": 0,
+              "PR": 0,
+              "PP": 0,
+              "PS": 0,
+              "SR": 0,
+              "SP": 0,
+              "SS": 0,
+          }
     opponent_history.append(prev_opponent_play)
 
     last_two = "".join(opponent_history[-2:])
