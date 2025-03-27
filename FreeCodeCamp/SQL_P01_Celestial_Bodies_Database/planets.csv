@@ -1,0 +1,26 @@
+name,star,type,ecossystem,inhabitable,year_duration,day_duration
+P1,S1,Gas Giant,Ipsum lorem ipsus lalala,1,100,25
+P2,S1,Ice Giant,Ipsum lorem ipsus lalala,1,500,250
+P3,S3,Ocean Planet,Ipsum lorem ipsus lalala,1,25,2500
+P4,S3,Super Earth,Ipsum lorem ipsus lalala,1,924,25000
+P5,S3,Ice Planet,Ipsum lorem ipsus lalala,1,18972,94
+P6,S5,Dwarf Planet,Ipsum lorem ipsus lalala,0,23,9
+P7,S6,Ice Giant,Ipsum lorem ipsus lalala,0,445,666
+P8,S7,Ocean Planet,Ipsum lorem ipsus lalala,0,10,584
+P9,S7,Gas Giant,Ipsum lorem ipsus lalala,1,9888,14
+P10,S9,Ice Planet,Ipsum lorem ipsus lalala,1,7777,736
+P11,S9,Dwarf Planet,Ipsum lorem ipsus lalala,1,1111,932
+P12,S9,Ice Giant,Ipsum lorem ipsus lalala,0,2222,568
+P13,S10,Gas Giant,Ipsum lorem ipsus lalala,0,5241,7779
+P14,S11,Ice Giant,Ipsum lorem ipsus lalala,0,23,6652
+P15,S12,Ocean Planet,Ipsum lorem ipsus lalala,1,6,3214
+P16,S14,Dwarf Planet,Ipsum lorem ipsus lalala,0,8,74
+P17,S14,Ice Giant,Ipsum lorem ipsus lalala,0,90,48
+P18,S14,Ocean Planet,Ipsum lorem ipsus lalala,1,41,9
+P19,S16,Gas Giant,Ipsum lorem ipsus lalala,1,12,5
+P20,S16,Ice Planet,Ipsum lorem ipsus lalala,0,12,1
+P21,S16,Super Earth,Ipsum lorem ipsus lalala,1,4,233
+P22,S16,Ice Planet,Ipsum lorem ipsus lalala,0,4,664
+P23,S16,Dwarf Planet,Ipsum lorem ipsus lalala,1,4,78
+P24,S16,Ice Giant,Ipsum lorem ipsus lalala,1,80,995
+P25,S16,Ice Giant,Ipsum lorem ipsus lalala,1,80,2

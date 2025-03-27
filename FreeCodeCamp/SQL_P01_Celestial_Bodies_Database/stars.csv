@@ -1,0 +1,17 @@
+name,galaxy,type,color,mass
+S1,G1,Red Dwarf,Red,10^6
+S2,G1,Brown Dwarf,Brown,10^8
+S3,G2,Neutron Star,White,10^6
+S4,G2,White Dwarf,White,10^5
+S5,G2,Blue Giant,Blue,10^10
+S6,G3,Red Giant,Red,10^9
+S7,G3,Neutron Star,White,10^20
+S8,G3,Brown Dwarf,Brown,10^8
+S9,G4,Neutron Star,White,10^6
+S10,G4,White Dwarf,White,10^6
+S11,G4,White Dwarf,White,10^4
+S12,G5,Blue Giant,Blue,10^10
+S13,G5,Red Giant,Red,10^12
+S14,G5,Red Dwarf,Red,10^7
+S15,G5,Red Dwarf,Red,10^7
+S16,G5,Red Dwarf,Red,10^5
