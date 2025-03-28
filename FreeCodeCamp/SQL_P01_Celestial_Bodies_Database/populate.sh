@@ -158,8 +158,8 @@ do
       then
         #insert on species_planets
         INSERT_RESULT=$($PSQL "INSERT INTO species_planets(
-          species_id, planet_id) VALUES(
-          $SPECIES_ID, $PLANET_ID)")
+          name, species_id, planet_id) VALUES(
+          '$NAME $PLACE', $SPECIES_ID, $PLANET_ID)")
         if [[ $INSERT_RESULT == "INSERT 0 1" ]]
         then
           echo Inserted into species_planets, $NAME $PLACE
@@ -175,8 +175,8 @@ do
         then
           #insert on species_moons
           INSERT_RESULT=$($PSQL "INSERT INTO species_moons(
-            species_id, moon_id) VALUES(
-            $SPECIES_ID, $MOON_ID)")
+            name, species_id, moon_id) VALUES(
+            '$NAME $PLACE', $SPECIES_ID, $MOON_ID)")
           if [[ $INSERT_RESULT == "INSERT 0 1" ]]
           then
             echo Inserted into species_moons, $NAME $PLACE
